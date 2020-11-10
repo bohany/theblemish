@@ -43,12 +43,11 @@
       @click="vidNext"
     />
     <q-btn
-      glossy
-      outline
-      color="deep-purple-2"
-      icon="play_circle_outline"
+      round
+      color="deep-purple-6"
+      icon="play_arrow"
       id="playBtn"
-      size="1.7rem"
+      size="2.2rem"
       @click="play"
       v-if="vidNum === 0 && !gorgeousPlaying"
     />
