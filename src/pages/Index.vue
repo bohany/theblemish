@@ -48,7 +48,7 @@
       color="deep-purple-2"
       icon="play_circle_outline"
       id="playBtn"
-      size="1.3rem"
+      size="1.7rem"
       @click="play"
       v-if="vidNum === 0 && !gorgeousPlaying"
     />
