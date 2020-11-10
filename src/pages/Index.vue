@@ -8,6 +8,7 @@
       v-if="vidNum === 0"
       preload="auto"
       ref="vid0"
+      playsinline
     />
 
     <video
@@ -18,6 +19,7 @@
       preload="auto"
       ref="vid1"
       autoplay
+      playsinline
     />
 
     <video
@@ -28,6 +30,7 @@
       preload="auto"
       ref="vid2"
       autoplay
+      playsinline
     />
 
     <q-btn
