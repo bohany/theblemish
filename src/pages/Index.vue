@@ -2,8 +2,8 @@
   <q-page class="flex flex-center">
     <video
       autoplay
-      src="../assets/vidGorgeous.webm"
-      type="video/webm"
+      src="../assets/vidGorgeous.mp4"
+      type="video/mp4"
       class="vidGorgeous"
       v-if="vidNum === 0"
       preload="auto"
